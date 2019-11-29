@@ -1,3 +1,5 @@
+source $CONDA_PREFIX/etc/profile.d/conda.sh
+
 #-> ont-guppy-cpu
 if [ ! -d "ont-guppy-cpu" ]
 then
