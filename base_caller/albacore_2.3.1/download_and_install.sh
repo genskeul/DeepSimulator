@@ -1,3 +1,5 @@
+source $CONDA_PREFIX/etc/profile.d/conda.sh
+
 conda remove --name basecall --all -y
 conda create --name basecall python=3.6 -y
 conda activate basecall
